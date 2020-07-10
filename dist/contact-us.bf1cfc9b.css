@@ -1,0 +1,73 @@
+.contact-text {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-text__title-name {
+    font-size: 80px;
+    color: rgb(244, 135, 30);
+    text-shadow: 2px 2px 80px rgb(252, 63, 250);
+}
+
+.contact-text__par {
+    font-size: 30px;
+}
+
+.contact-form {
+    width: auto;
+    margin: 20px auto;
+    padding: 0 10px;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    padding: 20px 20px;
+    outline: none;
+    border: 2px solid rgb(90, 0, 0);
+    background-color: rgb(163, 163, 194, 0.2);
+    color: rgb(0, 0, 0);
+}
+
+.input--resize {
+    resize: none;
+    height: 150px;
+}
+
+.input-btn {
+    float: right;
+    padding: 12px 50px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(77, 38, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input-btn:hover {
+    background-color: rgb(77, 38, 0, 0.8);
+}
+
+@media (max-width: 850px) {
+    .contact-text__title-name {
+        font-size: 50px;
+    }
+    
+    .contact-text__par {
+        font-size: 25px;
+    }
+}
+
+/*# sourceMappingURL=/contact-us.bf1cfc9b.css.map */
